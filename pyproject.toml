@@ -11,7 +11,7 @@ exclude = ["django_example_project",".python312","git_hooks"]
 [project]
 name = "django_api_engine"
 authors = [
-    {name = "Lauro Cessar de Oliveira", email = "olarva@gmail.com"},
+    {name = "Lauro Cesar de Oliveira", email = "olarva@gmail.com"},
 ]
 description = "Django API engine"
 readme = "README.md"
@@ -27,7 +27,15 @@ dependencies = [
     "djangorestframework-xml",
     "djangorestframework",
     "requests",
-    "numpy"
+    "numpy",
+    "daphne",
+    "django-cors-headers",
+    "gunicorn",
+    "celery[librabbitmq,redis,auth,msgpack]",
+    "autobahn",
+    "Twisted[tls,http2]",
+    "channels",
+    "channels_redis"
 ]
 
 
