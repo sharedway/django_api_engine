@@ -27,7 +27,7 @@ jobs:
 
       - name: Build release distributions
         run: |
-          # NOTE: put your own distribution build steps here.
+          python pump_version.py
           python -m pip install build
           python -m build
 
