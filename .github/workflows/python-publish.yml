@@ -27,8 +27,8 @@ jobs:
 
       - name: Build release distributions
         run: |
-          python pump_version.py
           python -m pip install build
+          python pump_version.py
           python -m build
 
       - name: Upload distributions
