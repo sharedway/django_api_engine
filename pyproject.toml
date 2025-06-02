@@ -26,6 +26,7 @@ dependencies = [
     "Django>=4",
     "djangorestframework-xml",
     "djangorestframework",
+    "rest-pandas",
     "requests",
     "numpy",
     "daphne",
