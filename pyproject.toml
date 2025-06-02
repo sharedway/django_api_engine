@@ -29,8 +29,6 @@ dependencies = [
     "requests",
     "numpy"
 ]
-[tool.setuptools.dynamic]
-version = {attr = "django_api_engine.VERSION"}
 
 [project.urls]
 Homepage = "https://github.com/sharedway/django_api_engine"
